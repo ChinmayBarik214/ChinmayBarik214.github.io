@@ -134,3 +134,21 @@ body {
 /* body{
   background-image: linear-gradient(to right, #ec6f66, #f3a183);
 } */
+
+/* Information Cards */
+.card-container{
+  background-color: grey;
+}
+.card-image{
+  background-color: darkkhaki;
+}
+.card-line{
+  background-color: red;
+}
+.card-heading{
+  background-color: darkgreen;
+}
+.card-content{
+  background-color: greenyellow;
+}
+/* Information Cards */
