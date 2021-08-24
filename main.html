@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <section>
+        <div class="logo">
+            <img src="logo.png" alt="">
+            <div id="signup"><a href="#">Sign Up</a></div>
+        </div>
+        <div class="navbar">
+            <a href="https://covid19.who.int/" target="_blank" class="item">Corona</a>
+            <a href="#" class="item">Our Blogs</a>
+            <a href="#" class="item">About us</a>
+            <a href="#" class="item">Contact us</a>
+        </div>
+    </section>
+    <section>
+        <!-- html for sidebar -->
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
+          
+          <div id="main">
+            <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>  
+            <h2>Collapsed Sidebar</h2>
+            
+          </div>
+          <!-- Information Cards -->
+          <section>
+            <h2>Information Cards</h2>
+
+            <div class="card-container">
+            <div class="card">
+              <a href="#">
+              <img src="covid-circles.jpg" alt="covid-circles" class="img-card">
+              </a>
+              <div class="container">
+                <h4><b>Coronavirus disease (COVID-19) Situation dashboard</b></h4> 
+                <p>This interactive dashboard/map provides the latest global numbers and numbers by country of COVID-19 cases on a daily basis.</p> 
+              </div>
+            </div>
+
+            <div class="card">
+              <a href="#">
+              <img src="covid-bars.png" alt="covid-bars" class="img-card">
+              </a>
+              <div class="container">
+                <h4><b>Timeline: WHO's COVID-19 response</b></h4> 
+                <p>Explore the interactive timeline showcasing how the organization has taken action on information, science, leadership, advice, response and resourcing.</p> 
+              </div>
+            </div>
+          </div>
+
+          </section>
+          <!-- Information Cards -->
+        <!-- html for sidebar -->
+    </section>
+    <script>
+        // js for sidebar
+function openNav() {
+    document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+  }
+// js for sidebar
+    </script>        
+</body>
+</html>
+
